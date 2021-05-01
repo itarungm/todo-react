@@ -5,7 +5,7 @@ function Todo() {
 
     const [title, setTitle] = useState();
     const [subtitle, setSubtitle] = useState();
-    const [todo, setTodo] = useState([...demo_content]);
+    const [todo, setTodo] = useState([...demo_content] );
 
     function addTodo() {
         if (!title || !subtitle) return;
